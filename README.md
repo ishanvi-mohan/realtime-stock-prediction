@@ -81,7 +81,7 @@ Apache Spark™ is a fast and general engine for large-scale data processing. He
 ## Basic ideas
 The data analyzed by Spark are placed directly to Kafka, not to Cassandra. This would reduce dependency on data server IO performance. We use Redis as a transit point between Kafka and NodeJS, which would improve the transmission efficiency. Cassandra would take the result from Kafka and archive down to complete the data persistence.
 We use Amazon ECS to schedule long-running applications, services, and batch processes using Docker containers, and deploy our applicaionn to Amazon Ec2.
-The prediction model can be more tested and self improved by adding some machine learning methods. Since data analytic is stream processing in spark, we can adjust parameters and modify prediction model to make more precise computing model. 
+The prediction model can be more tested and self improved by adding some machine learning methods. Since data analytic is stream processing in spark, we can adjust parameters and modify prediction model to make more precise computing model output input. 
 
 
 
